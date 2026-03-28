@@ -1,0 +1,33 @@
+{
+  "name": "practic",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node src/scripts/generateProducts.js",
+    "add-one": "node src/scripts/addOneProduct.js",
+    "get-all": "node src/scripts/getAllProducts.js",
+    "count": "node src/scripts/countProducts.js",
+    "clear": "node src/scripts/clearProducts.js",
+    "remove-randome": "node src/scripts/removeRandomProduct.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Volki-v-boi/node-practic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Volki-v-boi/node-practic/issues"
+  },
+  "homepage": "https://github.com/Volki-v-boi/node-practic#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@faker-js/faker": "^10.4.0",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0"
+  }
+}
